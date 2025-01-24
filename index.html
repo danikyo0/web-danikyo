@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dani's Projects</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #0d0d0d;
+            color: #fff;
+            font-family: Arial, sans-serif;
+        }
+        .carousel-item iframe {
+            height: 300px;
+        }
+        .carousel-control-prev,
+        .carousel-control-next {
+            width: 5%;
+        }
+        .carousel-control-prev {
+            left: -5%;
+        }
+        .carousel-control-next {
+            right: -5%;
+        }
+        .highlight-btn {
+            background-color: #fdd835;
+            color: #000;
+            font-weight: bold;
+        }
+        .section-title {
+            margin-top: 50px;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header class="container py-3">
+        <div class="d-flex justify-content-between align-items-center">
+            <h1>DaniKyo</h1>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link text-light" href="#">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link text-light" href="#merch">Merch</a></li>
+                    <li class="nav-item"><a class="nav-link text-light" href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Hero Section -->
+        <section class="text-center mt-4">
+            <h2>Bienvenidos a mi Mundo Creativo</h2>
+            <p>Descubre mis proyectos, videos, arte y trabajos en los que estoy colaborando. Explora y déjame tus comentarios.</p>
+        </section>
+
+        <!-- Featured Videos Section -->
+        <section id="videos" class="text-center">
+            <h3 class="section-title">Videos Destacados</h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="project-card">
+                        <img src="https://via.placeholder.com/300" class="img-fluid mb-2" alt="Video 1">
+                        <h5>Video 1</h5>
+                        <p>Descripción breve del video.</p>
+                        <button class="btn btn-outline-light">Ver Más</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="project-card">
+                        <img src="https://via.placeholder.com/300" class="img-fluid mb-2" alt="Video 2">
+                        <h5>Video 2</h5>
+                        <p>Descripción breve del video.</p>
+                        <button class="btn btn-outline-light">Ver Más</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="project-card">
+                        <img src="https://via.placeholder.com/300" class="img-fluid mb-2" alt="Video 3">
+                        <h5>Video 3</h5>
+                        <p>Descripción breve del video.</p>
+                        <button class="btn btn-outline-light">Ver Más</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Historia del Gaming Section -->
+        <section id="historia-gaming" class="text-center">
+            <h3 class="section-title">Historia del Gaming</h3>
+            <div id="gamingCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <iframe width="100%" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Video 1" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <div class="col-md-4">
+                                <iframe width="100%" src="https://www.youtube.com/embed/oHg5SJYRHA0" title="Video 2" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <div class="col-md-4">
+                                <iframe width="100%" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="Video 3" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <iframe width="100%" src="https://www.youtube.com/embed/2Vv-BfVoq4g" title="Video 4" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <div class="col-md-4">
+                                <iframe width="100%" src="https://www.youtube.com/embed/3JZ_D3ELwOQ" title="Video 5" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <div class="col-md-4">
+                                <iframe width="100%" src="https://www.youtube.com/embed/L_jWHffIx5E" title="Video 6" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#gamingCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#gamingCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- Cómo se Hizo Section -->
+        <section id="como-se-hizo" class="text-center">
+            <h3 class="section-title">Cómo se Hizo</h3>
+            <div id="hizoCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <iframe width="100%" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="Video 1" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <div class="col-md-4">
+                                <iframe width="100%" src="https://www.youtube.com/embed/2Vv-BfVoq4g" title="Video 2" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <div class="col-md-4">
+                                <iframe width="100%" src="https://www.youtube.com/embed/3JZ_D3ELwOQ" title="Video 3" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <iframe width="100%" src="https://www.youtube.com/embed/L_jWHffIx5E" title="Video 4" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <div class="col-md-4">
+                                <iframe width="100%" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Video 5" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <div class="col-md-4">
+                                <iframe width="100%" src="https://www.youtube.com/embed/oHg5SJYRHA0" title="Video 6" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#hizoCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#hizoCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contacto" class="text-center py-3">
+        <p>Contáctame en mis redes sociales:</p>
+        <p>Twitter | Instagram | YouTube</p>
+        <p>&copy; 2025 DaniKyo. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
