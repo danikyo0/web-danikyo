@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danikyo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <%- include('partials/navbar') %>
+
+    <main class="container">
+        <!-- Hero Section -->
+        <section class="text-center mt-4">
+            <h2>Bienvenidos a mi espacio creativo</h2>
+            <p>Descubre mis videos, merch y proyectos en los que estoy trabajando.</p>
+        </section>
+
+        <!-- Featured Videos Section -->
+        <section class="mt-5">
+            <h2 class="text-center"></h2>
+            <div class="container mt-4">
+                <div class="row g-4">
+                    <!-- Tarjeta 1 -->
+                    <div class="col-md-4">
+                        <div class="card bg-dark text-white">
+                            <a href="https://ninogamer.com/creadores/danikyo" target="_blank">
+                                <img src="/img/cards/2401252.png" class="card-img-top" alt="Merch">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Tarjeta 2 -->
+                    <div class="col-md-4">
+                        <div class="card bg-dark text-white">
+                            <a href="https://www.youtube.com/watch?v=ujbM99g9Ae8" target="_blank">
+                                <img src="/img/cards/2401253.png" class="card-img-top" alt="Video Destacado">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Tarjeta 3 -->
+                    <div class="col-md-4">
+                        <div class="card bg-dark text-white">
+                            <a href="https://www.tiktok.com/@danikyo" target="_blank">
+                                <img src="/img/cards/2401251.png" class="card-img-top" alt="Tiktok">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <!-- Historia del Gaming Section -->
+        <section id="historia-gaming" class="text-center">
+            <h3 class="section-title">Historia y desarrollo de videojuegos</h3>
+            <div id="gamingCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <iframe width="100%" src="https://www.youtube.com/embed/QrZ0lsmH0UA" title="Video 1" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <div class="col-md-4">
+                                <iframe width="100%" src="https://www.youtube.com/embed/ujbM99g9Ae8" title="Video 2" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <div class="col-md-4">
+                                <iframe width="100%" src="https://www.youtube.com/embed/KZ1RhLgwnYk" title="Video 3" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <iframe width="100%" src="https://www.youtube.com/embed/VIwWUf-n6hU" title="Video 4" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <div class="col-md-4">
+                                <iframe width="100%" src="https://www.youtube.com/embed/gzPrWZ9ZHmQ" title="Video 5" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <div class="col-md-4">
+                                <iframe width="100%" src="https://www.youtube.com/embed/HTiePOvlRmw" title="Video 6" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#gamingCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#gamingCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- Cómo se Hizo Section -->
+        <section id="como-se-hizo" class="text-center">
+            <h3 class="section-title">¿Cómo se hicieron estos videojuegos?</h3>
+            <div id="hizoCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <iframe width="100%" src="https://www.youtube.com/embed/5g-ea8ODH1A" title="Video 1" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <div class="col-md-4">
+                                <iframe width="100%" src="https://www.youtube.com/embed/h5pSw1LNW6I" title="Video 2" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <div class="col-md-4">
+                                <iframe width="100%" src="https://www.youtube.com/embed/axLaf9OPPyk" title="Video 3" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <iframe width="100%" src="https://www.youtube.com/embed/tKzydzUEnk4" title="Video 4" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <div class="col-md-4">
+                                <iframe width="100%" src="https://www.youtube.com/embed/VtosJRYzMR0" title="Video 5" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <div class="col-md-4">
+                                <iframe width="100%" src="https://www.youtube.com/embed/i-yd8QrqX8c" title="Video 6" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#hizoCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#hizoCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contacto" class="text-center py-4">
+        <p>Contáctame en mis redes sociales:</p>
+        <div>
+            <a href="https://twitter.com/danikyo_" target="_blank" class="me-3">
+                <i class="bi bi-twitter" style="font-size: 2rem;"></i>
+            </a>
+            <a href="https://instagram.com/danikyo_" target="_blank" class="me-3">
+                <i class="bi bi-instagram" style="font-size: 2rem;"></i>
+            </a>
+            <a href="https://youtube.com/danikyo" target="_blank">
+                <i class="bi bi-youtube" style="font-size: 2rem;"></i>
+            </a>
+        </div>
+        <p class="mt-3">&copy; 2025 DaniKyo. Todos los derechos reservados.</p>
+    
+        <!-- Enlace a Bootstrap Icons -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" rel="stylesheet">
+    </footer>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
